@@ -1,0 +1,296 @@
+* {
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+#navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    list-style: none;
+    color: white !important;
+}
+
+#title-button,
+#contact-button {
+    color: black !important;
+}
+
+.section-top {
+    padding: 0 225px;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.section-bottom {
+    padding: 100px 300px 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-bottom {
+    padding-top: 100px;
+}
+
+.section-bottomTwo {
+    padding-top: 30px;
+}
+
+.section-bottom h1 {
+    font-size: 5rem;
+}
+
+h1 {
+    padding-bottom: 50px;
+}
+
+#title-button {
+    background-color: white;
+    color: black;
+    padding: 20px 50px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+.section-bottomThree {
+    padding-left: 0 !important;
+}
+#contact-button {
+    background-color: white;
+    color: black;
+    padding: 20px 50px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    font-size: 2.75rem;
+}
+
+.section-bottomThree {
+    padding-bottom: 75px;
+}
+
+section {
+    height: 75vh;
+}
+
+.section-one,
+#section-three,
+#section-five {
+    background: url("../images/izuddin-helmi-adnan-4gLtZI213Dk-unsplash.jpg") center no-repeat;
+    position: relative;
+}
+
+.section-one::after,
+#section-three::after,
+#section-five::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.section-top,
+.section-bottom {
+    position: relative;
+    z-index: 2;
+}
+
+#services {
+    padding-left: 0;
+    font-size: 1.2rem;
+}
+
+#section-two,
+#section-four,
+#section-six {
+    background-color: #36454f !important;
+    padding-top: 175px !important;
+    padding-bottom: 175px !important;
+    height: auto;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 4.5rem;
+    padding: 100px 0 150px;
+}
+
+h4 {
+    font-size: 4rem;
+    padding-bottom: 125px;
+}
+
+#services {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    grid-gap: 100px;
+}
+
+#section-three {
+    height: 120vh;
+}
+
+.section-bottomFour-list {
+    padding-left: 0 !important;
+    display: flex;
+    justify-content: space-around !important;
+}
+
+.section-bottomFour {
+    padding: 0 300px 0 215px;
+}
+
+#frain {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.med {
+    font-size: 2rem;
+}
+.fa-tasks,
+.fa-cart-plus {
+    font-size: 7.5rem !important;
+    padding-bottom: 5px !important;
+}
+
+i {
+    font-size: 4rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-bottomFour-list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 300px;
+    z-index: 2;
+    position: relative;
+}
+
+#section-five {
+    height: 87.5vh;
+}
+
+.name-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-space {
+    width: 22rem;
+    height: 2.5rem;
+}
+
+.email-space,
+.subject-space {
+    width: 100%;
+    height: 2.5rem;
+}
+
+.message-space {
+    width: 100%;
+    height: 10rem;
+}
+
+.input-text {
+    align-self: left !important;
+}
+
+span {
+    width: 4.5rem;
+    color: white !important;
+}
+
+.submit-button {
+    border: white 50px !important;
+    background-color: transparent;
+    color: white;
+}
+
+.btn {
+    border-color: white !important;
+    border-width: 2.5px;
+    border-radius: 0 !important;
+    color: white !important;
+    width: 7.5rem;
+    height: 2.75rem;
+}
+
+.section-top-five {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 300px !important;
+}
+
+#section-six {
+    padding-bottom: 50px !important;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    text-align: left;
+}
+
+.info span {
+    padding-top: 40px;
+}
+
+h5 {
+    font-size: 2.5rem;
+}
+
+h6 {
+    font-size: 1.5rem;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-size: 0.5rem !important;
+}
+
+.last-edit {
+    padding-bottom: 30px;
+}
